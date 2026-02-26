@@ -32,7 +32,7 @@ export function Root() {
   );
 }
 
-function getTypeColor(type: string): string {
+/*(function getTypeColor(type: string): string {
   return typeColors[type];
 }
 
@@ -56,7 +56,7 @@ const typeColors: { [key: string]: string } = {
   ghost: "bg-indigo-700",
   steel: "bg-gray-500",
 };
-
+*/
 /*
 interface PokemonCard {
   id: number;
